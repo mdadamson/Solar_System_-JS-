@@ -1,0 +1,52 @@
+<!--
+-- name:        Michael Adamson
+-- class:       CMSC 405
+-- description: Project 3 (Three.js) 
+-->
+
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="wideth=devicd-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Project 3 - Three.js</title>
+        <style>
+            body{
+                margin: 0;
+            }
+            canvas{
+                width: 100%;
+                height: 100%;
+                background: url(myTextures/space_background.jpg);
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <label>Animations:</label>
+        <input type="checkbox" id="Sun" name="Sun" checked>
+        <label for="Sun">Sun</label>
+        <input type="checkbox" id="Mercury" name="Mercury" checked>
+        <label for="Mercury">Mercury</label>
+        <input type="checkbox" id="Venus" name="Venus" checked>
+        <label for="Venus">Venus</label>
+        <input type="checkbox" id="Earth" name="Earth" checked>
+        <label for="Earth">Earth</label>
+        <input type="checkbox" id="Moon" name="Moon" checked>
+        <label for="Moon">Moon</label>
+        <input type="checkbox" id="Mars" name="Mars" checked>
+        <label for="Mars">Mars</label>
+        <input type="checkbox" id="Jupiter" name="Jupiter" checked>
+        <label for="Jupiter">Jupiter</label>
+        <input type="checkbox" id="Saturn" name="Saturn" checked>
+        <label for="Saturn">Saturn</label>
+        <input type="checkbox" id="Uranus" name="Uranus" checked>
+        <label for="Uranus">Uranus</label>
+        <input type="checkbox" id="Neptune" name="Neptune" checked>
+        <label for="Neptune">Neptune</label>
+        <canvas id="myCanvas"></canvas>
+        <script src="three.min.js"></script>
+        <script src="Main.js"></script>
+    </body>
+</html>
